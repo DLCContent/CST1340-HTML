@@ -53,12 +53,14 @@ o	Marks are awarded for use of XSL/t commands.
 ## Story Board
 
 Home Page
+
 (TBI)
 
 Store Page
 
 
 ![image](https://github.com/user-attachments/assets/346249b7-f46f-4e01-a1f6-18ed1e6a8209)
+
 The Page will be books sorted by genre in a row and they will be scrollable side ways. When hovering over the book, you can click on a "Add to cart" Button. 
 
 
@@ -66,13 +68,16 @@ Cart Pop-up Menu
 
 
 ![image](https://github.com/user-attachments/assets/0339a7e2-0d51-426a-a014-d7a115192888)
+
 After a book has been added, a cart popup will show up and u can click on the "Proceed to checkout" Button to be redirected to a formal checkout page. You should also be able to close the pop-up window and proceed with browsing the catelogue.
 
 
 Preview Page
+
 (TBI)
 
 Check-out Page
+
 (TBI)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
