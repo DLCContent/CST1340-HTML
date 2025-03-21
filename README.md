@@ -87,6 +87,7 @@ There are some parts of the contribution that are mandetory and some that will b
 ~ +5  - Validating respective HTML page (M)
 
 ~ +3  - Validating other's work (O)
-~ +3  - Input with discussing Structure, Design and/or creating templates (These points will be awarded only when all group mates agree with the input and it is used in the final product)
+~ +3  - Input with discussing Structure, Design and/or creating templates 
+(These points will be awarded only when all group mates agree with the input and it is used in the final product)
 
 This should be it for now, Suggestions from teammates would certainly add onto the contribution. 
