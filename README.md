@@ -95,11 +95,17 @@ There are some parts of the contribution that are mandetory and some that will b
 (B) Bonus points 
 
 ~ +15 - HTML Page (M)
+
 ~ +5  - Front-end Design (M)
+
 ~ +5  - Validating respective HTML page (M)
 
+
 ~ +3  - Validating other's work (O)
+
+
 ~ +3  - Input with discussing Structure, Design and/or creating templates 
+
 
 (These points will be awarded only when all group mates agree with the input and it is used in the final product)
 
