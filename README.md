@@ -43,7 +43,7 @@ Section 4 - Transformation
 o	Marks are awarded for use of XSL/t commands.
 
 
-# Note: These requirements are MANDETORY and must be met in order to achive a high grade. It would be desireable for everyone to be activly participating and adding onto the project for an even contribution.
+# Note: These requirements are MANDATORY and must be met in order to achive a high grade. It would be desirable for everyone to be activly participating and adding onto the project for an even contribution.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -82,7 +82,7 @@ There are some parts of the contribution that are mandetory and some that will b
 
 ### Point-Sheet
 
-(M) For Mandetory for all CW members
+(M) For Mandatory for all CW members
 (O) For Optional but not required 
 (B) Bonus points 
 
