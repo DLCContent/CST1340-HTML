@@ -7,8 +7,11 @@ Small Repo for convinience and to collaberate smoothly on the project.
 
 ## Members:
 Mukhtar Ali Hussain | M00851824
+
 Eshaal Umair Lodhi | M00914205
+
 Shannen Leron Dsouza | M00984925
+
 Koushik Nikil Kamalakannan | M01031088
 
 ## Tutor:
