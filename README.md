@@ -101,9 +101,25 @@ This is the initial plan, and suggestions from team members will be considered t
 
 ---
 
+## Resources:
+
+- [Figma](https://www.figma.com/) (Webpage Design)
+- [W3Schools HTML](https://www.w3schools.com/html/default.asp) (HTML Syntax)
+- [W3Schools CSS](https://www.w3schools.com/css/default.asp) (CSS Syntax)
+- [W3Schools XML](https://www.w3schools.com/xml/default.asp) (XML Syntax & Learning Material)
+- [HTML Validator](https://validator.w3.org/)
+- [XML Validator](https://www.w3schools.com/xml/xml_validator.asp)
+
+---
+
 ## How to Clone the Repository
 
 To clone the repository, open a terminal or command prompt and run:
 
 ```bash
 git clone https://github.com/DLCContent/CST1340-HTML.git
+
+cd CST1340-HTML
+
+git pull origin main
+
