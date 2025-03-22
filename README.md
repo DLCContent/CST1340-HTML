@@ -119,7 +119,12 @@ To clone the repository, open a terminal or command prompt and run:
 ```bash
 git clone https://github.com/DLCContent/CST1340-HTML.git
 
+```
+
+```bash
 cd CST1340-HTML
+```
 
+```bash
 git pull origin main
-
+```
