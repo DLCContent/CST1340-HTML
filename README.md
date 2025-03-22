@@ -108,3 +108,4 @@ This is the initial plan, and suggestions from team members will be considered t
 - [W3Schools CSS](https://www.w3schools.com/css/default.asp) (CSS Syntax)
 - [W3Schools XML](https://www.w3schools.com/xml/default.asp) (XML Syntax & Learning Material)
 - [HTML Validator](https://validator.w3.org/)
+- [XML Validator](https://www.w3schools.com/xml/xml_validator.asp)
