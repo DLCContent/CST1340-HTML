@@ -80,7 +80,7 @@ Check-out Page
 
 (TBI)
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Contribution
 
@@ -110,3 +110,17 @@ There are some parts of the contribution that are mandetory and some that will b
 (These points will be awarded only when all group mates agree with the input and it is used in the final product)
 
 This should be it for now, Suggestions from teammates would certainly add onto the contribution. 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Resources:
+
+https://www.figma.com/ (Webpage Design)
+
+https://www.w3schools.com/html/default.asp (HTML Syntax)
+
+https://www.w3schools.com/css/default.asp (CSS Syntax)
+
+https://www.w3schools.com/xml/default.asp (XML Syntax + Learning Material)
+
+https://validator.w3.org/ (HTML Validator)
