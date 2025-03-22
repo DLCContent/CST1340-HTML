@@ -1,10 +1,45 @@
-/* generic style of using brown, green and gold maybe??*/
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f1e9; /* Vintage background */
     color: #4b3f2f; /* Brown text */
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f1e9; /* Vintage background */
+}
+
+.backdrop {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20%;
+    background: url('bookbg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+/* Content Styles */
+.content {
+    width: 60%;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 
 /* Header Styles */
