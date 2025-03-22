@@ -109,3 +109,7 @@ This is the initial plan, and suggestions from team members will be considered t
 - [W3Schools XML](https://www.w3schools.com/xml/default.asp) (XML Syntax & Learning Material)
 - [HTML Validator](https://validator.w3.org/)
 - [XML Validator](https://www.w3schools.com/xml/xml_validator.asp)
+
+###HOW TO CLONE THE REPO:
+[git clone] <https://github.com/DLCContent/CST1340-HTML>
+
