@@ -3,6 +3,45 @@
 
 This repository is created for the convenience of collaboration and smooth project development.
 
+The assignment is worth 35% of the overall grade and the submission date is Week 12, Friday, 23:59 April 11, 2025 
+
+## Contents 
+1 What do you have to submit
+2 What do you need to do
+3 Assessment Criteria                          
+
+_CST1340, COURSEWORK, SPRING 2025_
+
+## 1 What do you have to submit  
+
+This coursework requires two files submitted to the coursework submission link on My Learning: 
+1. A report document from your group. 
+2. . A ZIP archive of all your HTML and XML files.
+
+These files must be submitted by the deadline: 
+    ### Week 12, Friday, 23:59 April 11, 2025 
+
+You can use a template to create your report (provided on My Learning). Your report must specify what was the contribution of each group member. In addition, each group will be expected to demonstrate their website during the lab sessions in Week 12. All group members MUST be present. 
+
+## 2 What do you need to do 
+
+This coursework should be completed in groups of maximum 4 (four) students. Find yourself a group and make sure you find a time and place to meet and discuss/complete work every week. 
+    The overall aim of this coursework is to design and develop a 2-page web site for a bookshop (or a music records shopt if you prefer). The main objectives are: ˆ ˆ ˆ ˆ ˆ 
+    - Create an HTML page for the website 
+    - Demonstrate knowledge of CSS via implementation 
+    - Create an XML page 
+    - Demonstrate knowledge of DTD via implementation 
+    - Design a website that renders data from the XML file (transformation) 
+
+You should use a text editor to create the website (i.e. NotePad, Emacs, VI, etc). Do not use dedicated Web design tools or environments for this coursework. ˆ ˆ ˆ 
+- The website must contain 2 pages: a main page and a program page. 
+- The main page should be an HTML file. It should contain general information about the bookshop, such as the address, the contact detail and the opening times of the bookshop.                                   10 marks
+- The main page should contain at least one paragraph, one list and one table. For example, you can include a brief introduction of the bookshop in a paragraph, include the main genres in a list and the opening time in a table.                                                                                                5 marks
+- Feel free to apply different formatting and styling to improve the presentation of the web page (TIP: consider using CSS).
+-  The program page should be an XML file. The XML file should store information about the books sold following an XML data schema (TIP: consider using DTD).
+-  Ideally, when the page is clicked open, the book list should be displayed in a table format (TIP: consider using XSL).
+-  Both the main page and the program page should contain a link to each other (TIP: consider using the <a> tag).
+
 ---
 
 ## Team Members:
