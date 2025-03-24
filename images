@@ -1,3 +1,4 @@
 git add images/
 git commit -m "Added images for the HTML project"
 git push origin main
+<img src="bookbg.jpg" alt="My Image">
