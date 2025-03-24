@@ -7,7 +7,9 @@ The assignment is worth 35% of the overall grade and the submission date is Week
 
 ## Contents 
 1 What do you have to submit
+
 2 What do you need to do
+
 3 Assessment Criteria                          
 
 _CST1340, COURSEWORK, SPRING 2025_
