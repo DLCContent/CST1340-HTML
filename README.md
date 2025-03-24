@@ -50,6 +50,13 @@ This section should include:
 This section should include:
 - Annotated screenshots of the XSL/T file that transforms the XML data into an XHTML file.
   - Points will be awarded for correct use of XSL/T commands.
+ 
+**Navigation**: With every page, a button to return to the home page is a must! Wven when displaying XML content.
+
+- XLM Content MUST BE IN A TABLE or we lose marks.
+  
+**Display**: Screen flexability should be scalable and work on most resolutions (Android use is optional).
+
 
 > **Note**: These requirements are **mandatory** to achieve a high grade. Active participation from everyone is essential for a balanced contribution to the project.
 
@@ -107,8 +114,8 @@ This is the initial plan, and suggestions from team members will be considered t
 - [W3Schools HTML](https://www.w3schools.com/html/default.asp) (HTML Syntax)
 - [W3Schools CSS](https://www.w3schools.com/css/default.asp) (CSS Syntax)
 - [W3Schools XML](https://www.w3schools.com/xml/default.asp) (XML Syntax & Learning Material)
-- [HTML Validator](https://validator.w3.org/)
-- [XML Validator](https://www.w3schools.com/xml/xml_validator.asp)
+- [HTML Validator](https://validator.w3.org/) (HTML Validator, Required to ensure correct use of Syntax)
+- [XML Validator](https://www.w3schools.com/xml/xml_validator.asp) (XML Validator, Required to correctly verify XML content)
 
 ---
 
