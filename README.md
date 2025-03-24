@@ -26,12 +26,12 @@ You can use a template to create your report (provided on My Learning). Your rep
 ## 2 What do you need to do 
 
 This coursework should be completed in groups of maximum 4 (four) students. Find yourself a group and make sure you find a time and place to meet and discuss/complete work every week. 
-    The overall aim of this coursework is to design and develop a 2-page web site for a bookshop (or a music records shopt if you prefer). The main objectives are:
-    - Create an HTML page for the website 
-    - Demonstrate knowledge of CSS via implementation 
-    - Create an XML page 
-    - Demonstrate knowledge of DTD via implementation 
-    - Design a website that renders data from the XML file (transformation) 
+The overall aim of this coursework is to design and develop a 2-page web site for a bookshop (or a music records shopt if you prefer). The main objectives are:
+- Create an HTML page for the website 
+- Demonstrate knowledge of CSS via implementation 
+- Create an XML page 
+- Demonstrate knowledge of DTD via implementation 
+- Design a website that renders data from the XML file (transformation) 
 
 You should use a text editor to create the website (i.e. NotePad, Emacs, VI, etc). Do not use dedicated Web design tools or environments for this coursework.
 -  The website must contain 2 pages: a main page and a program page. 
