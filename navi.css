@@ -55,75 +55,55 @@
     transition: background 0.3s ease, transform 0.2s;
 }
 
-/* Hover effect */
-.nav-links a:hover {
-    background: rgba(255, 255, 255, 0.2);
-    transform: scale(1.1);
-}
+/* Sticky Top Navbar */
 .sticky-navbar {
     position: fixed;
     top: 0;
     left: 0;
-    width: 70px; /* Initially small */
-    height: 100vh; /* Full height */
-    background: rgba(0, 0, 0, 0.8); /* Subtle transparency */
+    width: 100%;
+    height: 50px; /* Small by default */
+    background: rgba(0, 0, 0, 0.7); /* Subtle transparency */
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     z-index: 9999;
-    padding-top: 20px;
-    transition: width 0.3s ease-in-out;
-    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: height 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
     overflow: hidden;
 }
 
+/* Expand navbar when hovered */
 .sticky-navbar:hover {
-    width: 220px; /* Expands smoothly */
+    height: 80px; /* Expand smoothly */
 }
 
 /* Navigation Links */
 .sticky-navbar a {
-    display: flex;
-    align-items: center;
-    gap: 15px;
     color: white;
     text-decoration: none;
-    padding: 15px;
+    padding: 12px 20px;
     font-size: 18px;
     font-weight: 600;
-    background: transparent; /* No box around text by default */
+    background: transparent;
     border-radius: 8px;
-    width: 100%;
     transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
-    white-space: nowrap;
     opacity: 0.8;
-}
-
-/* Icon only by default */
-.sticky-navbar a span {
-    display: none;
-}
-
-/* Show text when hovered */
-.sticky-navbar:hover a span {
-    display: inline;
 }
 
 /* Hover Effect */
 .sticky-navbar a:hover {
-    background: rgba(255, 255, 255, 0.2); /* Light background */
+    background: rgba(255, 255, 255, 0.2);
     color: #f4b400; /* Golden highlight */
     opacity: 1;
 }
 
-/* Adjust content so it's not covered */
+/* Prevent content from hiding behind the navbar */
 body {
-    margin-left: 70px; /* Matches collapsed width */
-    transition: margin-left 0.3s ease-in-out;
+    padding-top: 50px;
+    transition: padding-top 0.3s ease-in-out;
 }
 
-/* When navbar expands, shift content slightly */
+/* Adjust padding when navbar expands */
 .sticky-navbar:hover ~ body {
-    margin-left: 220px;
+    padding-top: 80px;
 }
