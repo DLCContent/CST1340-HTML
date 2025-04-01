@@ -1,0 +1,129 @@
+/* Left Navigation Bar - Stylish Look */
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 70px;
+    background: linear-gradient(to bottom, #444, #222);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 0 12px 12px 0;
+    transition: width 0.3s ease-in-out;
+    overflow: hidden;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Expanding effect */
+.nav-bar:hover {
+    width: 180px;
+}
+
+/* Navigation Header */
+.nav-header {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 100%;
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 12px;
+    display: block;
+    border-radius: 25px;
+    margin: 0 auto;
+    width: 85%;
+    text-align: center;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+}
+.sticky-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70px; /* Initially small */
+    height: 100vh; /* Full height */
+    background: rgba(0, 0, 0, 0.8); /* Subtle transparency */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 9999;
+    padding-top: 20px;
+    transition: width 0.3s ease-in-out;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    overflow: hidden;
+}
+
+.sticky-navbar:hover {
+    width: 220px; /* Expands smoothly */
+}
+
+/* Navigation Links */
+.sticky-navbar a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    background: transparent; /* No box around text by default */
+    border-radius: 8px;
+    width: 100%;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    white-space: nowrap;
+    opacity: 0.8;
+}
+
+/* Icon only by default */
+.sticky-navbar a span {
+    display: none;
+}
+
+/* Show text when hovered */
+.sticky-navbar:hover a span {
+    display: inline;
+}
+
+/* Hover Effect */
+.sticky-navbar a:hover {
+    background: rgba(255, 255, 255, 0.2); /* Light background */
+    color: #f4b400; /* Golden highlight */
+    opacity: 1;
+}
+
+/* Adjust content so it's not covered */
+body {
+    margin-left: 70px; /* Matches collapsed width */
+    transition: margin-left 0.3s ease-in-out;
+}
+
+/* When navbar expands, shift content slightly */
+.sticky-navbar:hover ~ body {
+    margin-left: 220px;
+}
