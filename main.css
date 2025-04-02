@@ -53,6 +53,7 @@ body {
     border-radius: 8px;
     cursor: pointer;
     transition: background 0.3s ease-in-out;
+    text-decoration: none;
 }
 
 .browse-btn:hover {
