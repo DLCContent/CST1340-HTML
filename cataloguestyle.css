@@ -194,3 +194,28 @@ body {
         opacity: 0;
     }
 }
+/* Go Back Button Container */
+.go-back-container {
+    position: absolute; /* Position it absolutely over the background */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for true centering */
+    z-index: 10; /* Ensure it stays on top of other elements */
+    text-align: center;
+}
+
+/* Go Back Button Styling */
+.go-back-btn {
+    padding: 12px 30px;
+    background-color: #000; /* Black button */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.go-back-btn:hover {
+    background-color: #444; /* Darker shade on hover */
+}
