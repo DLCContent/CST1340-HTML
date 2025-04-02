@@ -11,39 +11,26 @@
     <link rel="stylesheet" type="text/css" media="screen" href="nav.css">
 </head>
 <body>
-
     <!-- Search Bar -->
     <div class="search-container">
         <span class="search-icon">🔍</span>
         <input type="text" class="search-bar" placeholder="Search...">
     </div>
 
-    <!-- Left Navigation Bar 
-    <div class="nav-bar">
-        <div class="nav-header">📚 Menu</div>
-        <div class="nav-links">
-            <a href="index.html">🏠 Home</a>
-            <a href="about.html">📖 Our Story</a>
-            <a href="books.html">📚 Explore Books</a>
-            <a href="#footer">📍 Location</a>
-            <a href="contact.html">📩 Contact</a>
-        </div>
-    </div> -->
-
     <nav class="sticky-navbar">
         <a href="index.html">🏠 <span>Home</span></a>
         <a href="about.html">📖 <span>Our Story</span></a>
-        <a href="books.html">📚 <span>Explore Books</span></a>
+        <a href="catalogue.html">📚 <span>Explore Books</span></a>
         <a href="#footer">📞 <span>Contact</span></a>
     </nav>    
-    
 
     <!-- Header Section -->
     <div class="header-container" id="header">
         <div class="header-content">
             <h1>The Klementinum</h1>
             <p>CST-1340 HTML Bookstore website inspired by the real-life library in Prague, compiling a handful of selected books available for purchase online.</p>
-            <button class="browse-btn">Browse all</button>
+            <a href="catalogue.html" class="browse-btn" target="_blank" rel="noopener noreferrer">Browse all</a>
+        
         </div>
     </div>
 
@@ -52,22 +39,52 @@
         <div class="book-section">
             <div class="section-title">New Release</div>
             <div class="scroll-container">
-                <div class="book-item">Book 1</div>
-                <div class="book-item">Book 2</div>
-                <div class="book-item">Book 3</div>
-                <div class="book-item">Book 4</div>
-                <div class="book-item">Book 5</div>
+                <div class="book-item">
+                    <img src="book1.jpg" alt="Gone Girl by Gillian Flynn">
+                    <p>Gone Girl - Gillian Flynn</p>
+                </div>
+                <div class="book-item">
+                    <img src="book2.jpg" alt="Dracula by Bram Stoker">
+                    <p>Dracula - Bram Stoker</p>
+                </div>
+                <div class="book-item">
+                    <img src="book3.jpg" alt="1984 by George Orwell">
+                    <p>1984 - George Orwell</p>
+                </div>
+                <div class="book-item">
+                    <img src="book4.jpg" alt="It by Stephen King">
+                    <p>It - Stephen King</p>
+                </div>
+                <div class="book-item">
+                    <img src="book5.jpg" alt="Me Before You by Jojo Moyes">
+                    <p>Me Before You - Jojo Moyes</p>
+                </div>
             </div>
         </div>
 
         <div class="book-section" style="margin-top: 40px;">
             <div class="section-title">Trending</div>
             <div class="scroll-container">
-                <div class="book-item">Book A</div>
-                <div class="book-item">Book B</div>
-                <div class="book-item">Book C</div>
-                <div class="book-item">Book D</div>
-                <div class="book-item">Book E</div>
+                <div class="book-item">
+                    <img src="bookA.jpg" alt="Before I Go to Sleep by S.J. Watson">
+                    <p>Before I Go to Sleep - S.J. Watson</p>
+                </div>
+                <div class="book-item">
+                    <img src="bookB.jpg" alt="White Nights by Fyodor Dostoevsky">
+                    <p>White Nights - Fyodor Dostoevsky</p>
+                </div>
+                <div class="book-item">
+                    <img src="bookC.jpg" alt="The Martian by Andy Weir">
+                    <p>The Martian - Andy Weir</p>
+                </div>
+                <div class="book-item">
+                    <img src="bookD.jpg" alt="Frankenstein by Mary Shelley">
+                    <p>Frankenstein - Mary Shelley</p>
+                </div>
+                <div class="book-item">
+                    <img src="bookE.jpg" alt="All the Light We Cannot See by Anthony Doerr">
+                    <p>All the Light We Cannot See - Anthony Doerr</p>
+                </div>
             </div>
         </div>
     </div>
@@ -75,7 +92,6 @@
     <!-- Footer Section -->
 <footer class="footer-container" id="footer">
     <div class="footer-content">
-
         <!-- Company Info -->
         <div class="footer-section">
             <h3>Company</h3>
@@ -98,7 +114,6 @@
             <a href="#" class="social-icon">🐦 Twitter</a>
             <a href="#" class="social-icon">🔗 LinkedIn</a>
         </div>
-
     </div>
     <p class="footer-bottom">&copy; 2025 The Klementinum. All Rights Reserved.</p>
 </footer>
