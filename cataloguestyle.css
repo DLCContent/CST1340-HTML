@@ -1,0 +1,101 @@
+/*BASICALLY PRICES, AUTHORS, CART BUTTON AND GO BACK BUTTON*/
+
+/* Book Author */
+.book-author {
+    font-style: italic;
+    color: #666;
+    font-size: 16px;
+}
+
+/* Price Styling */
+.book-price {
+    font-size: 18px;
+    color: #e44d26;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+/* Book Description */
+.book-description {
+    font-size: 15px;
+    color: #444;
+    margin-top: 12px;
+    padding: 10px;
+    line-height: 1.5;
+    background: #f8f8f8;
+    border-radius: 5px;
+    min-height: 80px; /* Ensures descriptions have enough space */
+}
+
+/* Add to Cart Button */
+.cart-btn {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cart-btn:hover {
+    background-color: #e65c00;
+}
+
+/* Cart Confirmation Message */
+.cart-message {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: green;
+    display: none;  /* Initially hidden */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; /* Fade-in and fade-out effect */
+}
+
+/* Show message when button is clicked (active state) */
+.cart-btn:focus + .cart-message {
+    display: block;
+    opacity: 1;
+    animation: showMessage 2s forwards; /* Keeps the message visible for 2 seconds */
+}
+
+/* Animation for showing the message */
+@keyframes showMessage {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+/* Go Back Button Container */
+.go-back-container {
+    position: absolute; /* Position it absolutely over the background */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for true centering */
+    z-index: 10; /* Ensure it stays on top of other elements */
+    text-align: center;
+}
+
+/* Go Back Button Styling */
+.go-back-btn {
+    padding: 12px 30px;
+    background-color: #000; /* Black button */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.go-back-btn:hover {
+    background-color: #444; /* Darker shade on hover */
+}
