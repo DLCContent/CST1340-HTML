@@ -1,0 +1,145 @@
+/*Page styling*/
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f8f8;
+}
+
+/*Alignment*/
+.right-align {
+      text-align: right;
+    }
+
+/*Header*/
+.header-container {
+    text-align: center;
+    padding: 60px 20px;
+    color: #fff;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url('bookbg.jpg') no-repeat center center/cover;
+}
+
+.header-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+}
+
+.header-container h1 {
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+.header-container p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/*Go back to home page*/
+.go-back-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+}
+
+/*Styling for the go back button*/
+.go-back-btn {
+    padding: 12px 30px;
+    background-color: #000;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.go-back-btn:hover {
+    background-color: #444;
+}
+
+/*Search Bar*/
+.search-bar {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+        
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+        
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/*Product*/
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.product-box {
+	text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 220px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.related-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.product-box img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    }
+
+/*Add to cart button*/
+.btn {
+    background: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer-container {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+}
+
