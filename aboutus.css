@@ -1,44 +1,87 @@
 header {
     background-color: #333; /* Match the color with other pages */
-    color: rgb(177, 135, 73);
     padding: 15px 0;
     position: relative;
     width: 100%;
     z-index: 1000;
 }
 
-
-/* Header Navigation*/
-.header-nav {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-background-color: rgba(0, 0, 0, 0); /* Makes the background fully transparent but still allows the blur */
-backdrop-filter: blur(10px); /* Keeps the blur effect */
-z-index: 10;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 30px 32px;
-
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
 }
 
-/* Logo */
+/* HEADER with Blurry Background Image */
+.header-blur {
+    position: relative;
+    height: 250px;
+    background-image: url('images/bookbg.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.header-blur::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.3); /* subtle overlay for contrast */
+    z-index: 1;
+}
+
+.header-overlay {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 20px 40px;
+}
+
 .logo {
-font-family: "PlayfairDisplay-Medium", serif;
-font-size: 24px;
-color: #fff;
-font-weight: 500;
-white-space: nowrap;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
-/* Wrapper for search bar, nav links, and cart */
-.nav-wrapper {
-display: flex;
-align-items: center;
-gap: 32px;
-margin-right: 60px;
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffcc00;
+}
+
+/* Responsive Header */
+@media (max-width: 768px) {
+    .header-overlay {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
 }
 
 /* Search Bar */
