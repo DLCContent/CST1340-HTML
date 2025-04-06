@@ -1,0 +1,246 @@
+header {
+    background-color: #333; /* Match the color with other pages */
+    color: rgb(177, 135, 73);
+    padding: 15px 0;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+/* Header Navigation*/
+.header-nav {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+background-color: rgba(0, 0, 0, 0); /* Makes the background fully transparent but still allows the blur */
+backdrop-filter: blur(10px); /* Keeps the blur effect */
+z-index: 10;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px 32px;
+
+}
+
+/* Logo */
+.logo {
+font-family: "PlayfairDisplay-Medium", serif;
+font-size: 24px;
+color: #fff;
+font-weight: 500;
+white-space: nowrap;
+}
+
+/* Wrapper for search bar, nav links, and cart */
+.nav-wrapper {
+display: flex;
+align-items: center;
+gap: 32px;
+margin-right: 60px;
+}
+
+/* Search Bar */
+.search-bar {
+display: flex;
+align-items: center;
+background-color: #ece6f0;
+border-radius: 28px;
+height: 48px;
+padding: 0 16px;
+gap: 8px;
+}
+
+.search-input {
+border: none;
+background: transparent;
+outline: none;
+font-family: "Roboto-Regular", sans-serif;
+font-size: 16px;
+color: #49454f;
+
+}
+
+.search-text {
+font-family: "Roboto-Regular", sans-serif;
+font-size: 16px;
+color: #49454f;
+}
+
+/* Navigation Links */
+.nav-links {
+display: flex;
+gap: 24px;
+}
+
+.nav-link {
+color: #fff;
+text-decoration: none;
+font-family: "Inter-Medium", sans-serif;
+font-size: 18px;
+font-weight: 500;
+}
+
+.nav-link:hover {
+text-decoration: underline;
+}
+
+/* Cart Icon */
+.shopping-cart {
+width: 24px;
+height: 24px;
+cursor: pointer;
+}
+          
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f4b400; /* Change color on hover */
+}
+
+/* Fix body margin to prevent the header from shifting */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Fix spacing between header and content */
+.container {
+    padding-top: 20px;
+}
+
+
+
+/* Team Members */
+.person {
+    position: relative;
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+/* Name Hover Effect */
+.text h2 {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+.text h2:hover {
+    color: #ffcc00;
+}
+
+/* Dropdown List */
+.text ul {
+    display: none;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.person:hover .text ul {
+    display: block;
+}
+
+/* Image Expansion on Hover */
+.image {
+    position: absolute;
+    right: -150px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 120px;
+    width: 120px;
+    background-color: #ddd;
+    border-radius: 50%;
+    transition: right 0.3s ease, box-shadow 0.3s ease;
+}
+
+.person:hover .image {
+    right: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* XSL Section */
+.our-xsl {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.our-xsl a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.our-xsl a:hover {
+    background: #555;
+}
+
+/* Contact Us Form */
+.contact-us {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact-us form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us input,
+.contact-us textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-us button {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-us button:hover {
+    background: #555;
+}
