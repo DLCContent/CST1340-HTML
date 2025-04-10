@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bookstore.xsl"?>
+<!DOCTYPE bookstore SYSTEM "books.dtd">
+
+<bookstore xmlns:book="http://KlementinumLibrary.com/XML">
+  <book:genre name="Mixed Collection">
+    <book:description>A curated selection of fiction, thriller, horror, sci-fi, and romance titles from iconic and modern authors.</book:description>
+
+    <book:item id="A110">
+      <book:title>Gone Girl</book:title>
+      <book:cover>images/book1.jpg</book:cover>
+      <book:author>Gillian Flynn</book:author>
+      <book:price>AED 12.99</book:price>
+      <book:category>Mystery</book:category>
+      <book:summary>A suspenseful psychological thriller where a husband becomes the prime suspect after his wife mysteriously disappears.</book:summary>
+    </book:item>
+
+    <book:item id="A111">
+      <book:title>Dracula</book:title>
+      <book:cover>images/book2.jpg</book:cover>
+      <book:author>Bram Stoker</book:author>
+      <book:price>AED 8.99</book:price>
+      <book:category>Horror</book:category>
+      <book:summary>The Gothic classic that defined vampire fiction, following the iconic Count Dracula’s arrival in England.</book:summary>
+    </book:item>
+
+    <book:item id="A1121">
+      <book:title>1984</book:title>
+      <book:cover>images/book3.jpg</book:cover>
+      <book:author>George Orwell</book:author>
+      <book:price>AED 14.50</book:price>
+      <book:category>Dystopian</book:category>
+      <book:summary>A chilling dystopian novel about surveillance, oppression, and rebellion in a totalitarian regime.</book:summary>
+    </book:item>
+
+    <book:item id="A113">
+      <book:title>It</book:title>
+      <book:cover>images/book4.jpg</book:cover>
+      <book:author>Stephen King</book:author>
+      <book:price>AED 18.99</book:price>
+      <book:category>Horror</book:category>
+      <book:summary>A group of children confront an ancient evil that emerges every 27 years in their small town — and again as adults.</book:summary>
+    </book:item>
+
+    <book:item id="A114">
+      <book:title>Me Before You</book:title>
+      <book:cover>images/book5.jpg</book:cover>
+      <book:author>Jojo Moyes</book:author>
+      <book:price>AED 11.99</book:price>
+      <book:category>Romance</book:category>
+      <book:summary>A life-affirming love story between a quirky caretaker and a man paralyzed after an accident.</book:summary>
+    </book:item>
+
+    <book:item id="A115">
+      <book:title>Before I Go To Sleep</book:title>
+      <book:cover>images/bookA.jpg</book:cover>
+      <book:author>S.J Watson</book:author>
+      <book:price>AED 23.59</book:price>
+      <book:category>Mystery</book:category>
+      <book:summary>A psychological mystery where a woman wakes up every day with no memory of her life.</book:summary>
+    </book:item>
+
+    <book:item id="A116">
+      <book:title>White Nights</book:title>
+      <book:cover>images/bookB.jpg</book:cover>
+      <book:author>Fyodor Dostoevsky</book:author>
+      <book:price>AED 39.99</book:price>
+      <book:category>Fiction</book:category>
+      <book:summary>A melancholic tale of fleeting love and loneliness set under the white nights of St. Petersburg.</book:summary>
+    </book:item>
+
+    <book:item id="A117">
+      <book:title>The Martian</book:title>
+      <book:cover>images/bookC.jpg</book:cover>
+      <book:author>Andy Weir</book:author>
+      <book:price>AED 35.50</book:price>
+      <book:category>Sci-Fi</book:category>
+      <book:summary>Stranded on Mars, astronaut Mark Watney must use science and wit to survive and signal Earth.</book:summary>
+    </book:item>
+
+    <book:item id="A118">
+      <book:title>Frankenstein</book:title>
+      <book:cover>images/bookD.jpg</book:cover>
+      <book:author>Mary Shelley</book:author>
+      <book:price>AED 45.20</book:price>
+      <book:category>Horror</book:category>
+      <book:summary>The original tale of man playing god, and the tragic consequences of Dr. Frankenstein’s scientific ambition.</book:summary>
+    </book:item>
+
+    <book:item id="A119">
+      <book:title>All The Light We Cannot See</book:title>
+      <book:cover>images/bookE.jpg</book:cover>
+      <book:author>Anthony Doerr</book:author>
+      <book:price>AED 28.48</book:price>
+      <book:category>Fiction</book:category>
+      <book:summary>A WWII story of intersecting lives: a blind French girl and a German boy bound by fate and light.</book:summary>
+    </book:item>
+
+  </book:genre>
+</bookstore>

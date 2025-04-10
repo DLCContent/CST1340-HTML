@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalogue.xsl"?>
+<!DOCTYPE bookstore SYSTEM "books.dtd">
+<bookstore>
+    <book isbn="A110">
+        <title>Gone Girl</title>
+        <link>Product-01.html</link>
+        <author>Gillian Flynn</author>
+        <price>12.99</price>
+        <genre>Mystery</genre>
+        <image>images/book1.jpg</image>
+    </book>
+    <book isbn="A115">
+        <title>Before I Go To Sleep</title>
+        <link>Product-02.html</link>
+        <author>S.J Watson</author>
+        <price>23.59</price>
+        <genre>Thriller</genre>
+        <image>images/bookA.jpg</image>
+    </book>
+</bookstore>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="catalogue.xsl"?>
+<!DOCTYPE bookstore SYSTEM "books.dtd">
+<bookstore>
+    <book isbn="A110">
+        <title>Gone Girl</title>
+		<link>Product-01.html</link>
+        <author>Gillian Flynn</author>
+        <price>12.99</price>
+        <genre>Mystery</genre>
+        <image>images/book1.jpg</image>
+    </book>
+    <book isbn="A111">
+        <title>Dracula</title>
+        <author>Bram Stoker</author>
+        <price>8.99</price>
+        <genre>Horror</genre>
+        <image>images/book2.jpg</image>
+    </book>
+    <book isbn="A1121">
+        <title>1984</title>
+        <author>George Orwell</author>
+        <price>14.50</price>
+        <genre>Dystopian</genre>
+        <image>images/book3.jpg</image>
+    </book>
+    <book isbn="A113">
+        <title>It</title>
+        <author>Stephen King</author>
+        <price>18.99</price>
+        <genre>Horror</genre>
+        <image>images/book4.jpg</image>
+    </book>
+    <book isbn="A114">
+        <title>Me Before You</title>
+        <author>Jojo Moyes</author>
+        <price>11.99</price>
+        <genre>Romance</genre>
+        <image>images/book5.jpg</image>
+    </book>
+    <book isbn="A115">
+        <title>Before I Go To Sleep</title>
+        <author>S.J Watson</author>
+        <price>23.59</price>
+        <genre>Mystery</genre>
+        <image>images/bookA.jpg</image>
+    </book>
+    <book isbn="A116">
+        <title>White Nights</title>
+        <author>Fyodor Dostoevsky</author>
+        <price>39.99</price>
+        <genre>Fiction</genre>
+        <image>images/bookB.jpg</image>
+    </book>
+    <book isbn="A117">
+        <title>The Martian</title>
+        <author>Andy Weir</author>
+        <price>35.50</price>
+        <genre>Sci-Fi</genre>
+        <image>images/bookC.jpg</image>
+    </book>
+    <book isbn="A118">
+        <title>Frankenstein</title>
+        <author>Mary Shelley</author>
+        <price>45.20</price>
+        <genre>Horror</genre>
+        <image>images/bookD.jpg</image>
+    </book>
+    <book isbn="A119">
+        <title>All The Light We Cannot See</title>
+        <author>Anthony Doerr</author>
+        <price>28.48</price>
+        <genre>Fiction</genre>
+        <image>images/bookE.jpg</image>
+    </book>
+</bookstore>

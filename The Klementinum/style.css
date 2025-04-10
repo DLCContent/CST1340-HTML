@@ -1,0 +1,492 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #a08063;
+}
+
+		/* Header Navigation*/
+.header-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0); /* Makes the background fully transparent but still allows the blur */
+  backdrop-filter: blur(2px); /* Keeps the blur effect */
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 32px;
+
+}
+
+
+.header-nav2 {
+  position: fixed; /* Alternate header nav for alternate pages */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0); /* Makes the background fully transparent but still allows the blur */
+
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 32px;
+}
+
+
+/* Logo */
+.logo {
+  font-family: "PlayfairDisplay-Medium", serif;
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Wrapper for search bar, nav links, and cart */
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-right: 60px;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #ece6f0;
+  border-radius: 28px;
+  height: 48px;
+  padding: 0 16px;
+  gap: 8px;
+}
+
+.search-input {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  color: #49454f;
+  
+}
+
+.search-text {
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 16px;
+  color: #49454f;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Cart Icon */
+.shopping-cart {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+/*=============== index-m.html ===================*/
+
+/* Main Background Area */
+.header-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 100px; /* Leaves space for fixed nav bar */
+}
+
+.backdrop-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.header-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  top: 40%;
+  transform: translateY(-50%);
+  padding: 0 20px;
+}
+
+.the-klementinum {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-family: "Inter-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 140%;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  color: #ffffff;
+}
+
+.button .browse-all {
+  display: inline-block;
+  background: #000;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out;
+}
+
+.button .browse-all:hover {
+  background: #333;
+}
+	/*Book Container*/
+
+.content-container {
+    max-width: 76%;
+    margin: auto auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 0px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: scroll;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.scroll-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px 0;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f3f3f3;
+}
+
+
+
+	/*Book Style*/
+
+.book-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 200px;
+    height: 390px;
+    background: linear-gradient(135deg, #f3f3f3, #e0e0e0);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+	text-decoration: none;
+	
+}
+
+.book-item img {
+    width: 100%;
+    height: 88%;
+    object-fit: cover;
+    border-radius: 8px;
+	text-decoration: none;
+	
+}
+
+.book-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.book-item:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #e0e0e0, #ccc);
+}
+
+
+/*===========Preview Page Style==============*/
+
+/* Header Navigation */
+.header-nav-2 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #A08063;
+  backdrop-filter: blur(2px);
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 32px;
+  transition: padding 0.3s ease-in-out;
+}
+
+/* Header shrink on hover of .main-content */
+body:has(.main-content:hover) .header-nav {
+	padding: 10px 32px;
+	
+}
+
+body:has(.header-nav-2) {
+  padding-top: 100px;
+}
+
+       
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/*Main Product*/
+.product-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: auto;
+	border: 2;
+}
+
+.product-img img {
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-info h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.subheading {
+	font-weight: bold;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.price {
+    margin: 20px 0;
+}
+
+.description-2 {
+    font-size: 17px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.product-box {
+	text-align: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 220px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.related-products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.product-box img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+	
+/*Other products*/
+.related-section {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.related-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 24px;
+}
+
+.related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 32px;
+}
+
+.book-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 200px;
+    height: 400px;
+    background: linear-gradient(135deg, #f3f3f3, #e0e0e0);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+	overflow: hidden;
+	color:inherit;
+	display: block;
+	text-decoration: none;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+}
+
+.book-card img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.book-details {
+    padding: 12px 16px;
+}
+
+.book-title {
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.book-description {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.book-price {
+    font-weight: bold;
+    font-size: 15px;
+}
+	
+/*Book details styling*/
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: right;
+}
+
+/*Add to cart button*/
+.btn {
+    background: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+	
+
+
+	/*Footer Section*/
+.footer-container {
+    background: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-section p, 
+.footer-section a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+/* Social Media Styling */
+.social-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
+
+
+/*============================================*/

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="aboutus.css">
+	<link rel="stylesheet" href="style.css">
+    <style>
+
+        .person {
+            background-color: #f5e5d3;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<header>
+	<!-- Header Section -->
+  <header class="header-nav-2">
+	<div class="logo">
+	<a href="index-m.html" class="logo">The Klementinum Library</a>
+	</div>	
+	<div class="nav-wrapper">
+	  <div class="search-bar">
+		<input type="text" class="search-input" placeholder="Search..." />
+		<img class="icon" src="images/icons8-search-24.png" alt="Search" />
+	  </div>
+
+	  <nav class="nav-links">
+		<a href="index-m.html" class="nav-link">Home</a>
+		<a href="BookInfo.xml" class="nav-link">Catalog</a>
+		<a href="aboutus.html" class="nav-link">About Us</a>
+	  </nav>
+	  <img href="cart.html" class="shopping-cart" src="images/icons8-cart-24.png" alt="Cart" />
+	</div>
+</header>
+
+<body style="background-color: #333;">
+
+    <!-- Team Members -->
+    <section class="person">
+        <div class="text">
+            <h2>MUKHTAR ALI HUSSAIN</h2>
+            <p>Group Leader | Lead UX Designer</p>
+            <ul>
+                <li>Led the project direction</li>
+                <li>Designed and planned the website structure</li>
+                <li>Developed the HTML and CSS for Landing, Catalogue, and About Us pages</li>
+            </ul>
+        </div>
+        <div class="image"></div>
+    </section>
+
+    <section class="person">
+        <div class="text">
+            <h2>ESHAAL UMAIR LODHI</h2>
+            <p>Product Designer | Front End Developer</p>
+            <ul>
+                <li>Lead front-end and back-end developer</li>
+                <li>Designed and implemented the majority of the website’s pages</li>
+                <li>Ensured clean, efficient, and responsive code</li>
+            </ul>
+        </div>
+        <div class="image"></div>
+    </section>
+
+    <section class="person">
+        <div class="text">
+            <h2>SHANNEN LERON D'SOUZA</h2>
+            <p>Resource Management</p>
+            <ul>
+                <li>Managed the collection and organization of content</li>
+                <li>Ensured availability of necessary resources for development</li>
+                <li>Assisted in project coordination</li>
+            </ul>
+        </div>
+        <div class="image"></div>
+    </section>
+
+    <section class="person">
+        <div class="text">
+            <h2>KOUSHIK NIKIL KAMLAKANNAN</h2>
+            <p>About Us Designer | Back End Developer</p>
+            <ul>
+                <li>Cybersecurity enthusiast with expertise in Python and SQL</li>
+                <li>Worked on database hardening and backend logic</li>
+                <li>Contributed to penetration testing and security enhancements</li>
+            </ul>
+        </div>
+        <div class="image"></div>
+    </section>
+
+    <!-- Our XSL Section -->
+    <section class="our-xsl">
+        <h2 style="color: #fff;">Our XSL</h2>
+        <p style="color: #fff;">Below This Heading, we will have a redirect to our XML Table styled using XSL, displaying our data we created and used for this project.</p>
+        <a href="bookstore.xml">Click Here!</a>
+    </section>
+
+    <!-- Opening Hours Section -->
+<section class="opening-hours" style="padding: 30px; background-color: #f5e5d3; margin: 40px 20px; border-radius: 12px; text-align: center;">
+    <h2>📅 Opening Hours</h2>
+    <table style="margin: 0 auto; border-collapse: collapse; width: 60%; background-color: #fff;">
+        <thead>
+            <tr style="background-color: #d4a373; color: white;">
+                <th style="padding: 12px; border: 1px solid #ccc;">Day</th>
+                <th style="padding: 12px; border: 1px solid #ccc;">Opening Time</th>
+                <th style="padding: 12px; border: 1px solid #ccc;">Closing Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Monday - Thursday</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">9:00 AM</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">8:00 PM</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Friday</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">9:00 AM</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">5:00 PM</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Saturday</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">10:00 AM</td>
+                <td style="padding: 10px; border: 1px solid #ccc;">4:00 PM</td>
+            </tr>
+            <tr>
+                <td style="padding: 10px; border: 1px solid #ccc;">Sunday</td>
+                <td colspan="2" style="padding: 10px; border: 1px solid #ccc;">Closed</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    <section class="contact-us">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <input type="text" name="firstname" placeholder="First name">
+            <input type="text" name="lastname" placeholder="Last name">
+            <input type="email" name="email" placeholder="Email address">
+            <textarea name="message" placeholder="Enter your question or message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-container" id="footer">
+        <div class="footer-content">
+            <!-- Company Info -->
+            <div class="footer-section">
+                <h3>Company</h3>
+                <p><strong>Location:</strong> UAE, Dubai</p>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><strong>Phone:</strong> +971 123 456 789</p>
+                <p><strong>Email:</strong> info@klementinum.com</p>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="footer-section social-media">
+                <h3>Follow Us</h3>
+                <a href="#" class="social-icon">📷 Instagram</a>
+                <a href="#" class="social-icon">🐦 Twitter</a>
+                <a href="#" class="social-icon">🔗 LinkedIn</a>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; 2025 The Klementinum. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

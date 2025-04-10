@@ -1,0 +1,9 @@
+<!DOCTYPE bookstore SYSTEM "books.dtd">
+<!ELEMENT bookstore (book+)>
+<!ELEMENT book (title, author, price, genre, image)>
+<!ATTLIST book isbn CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
